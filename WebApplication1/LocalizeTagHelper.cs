@@ -26,6 +26,6 @@ public class LocalizeTagHelper : TagHelper
         // Get the localization (here using .NET ResourceManager), or the original content if not found
         //var localization = AppResources.ResourceManager.GetString(content) ?? content;
 
-        output!.Content!.SetHtmlContent("");
+        output!.Content!.SetHtmlContent("")
     }
 }
